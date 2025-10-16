@@ -2,6 +2,7 @@
   "name": "fiat-wallet-ledger",
   "version": "1.0.0",
   "description": "A Node.js(TypeScript) wallet API with Paystack integration and double-entry ledger accounting.",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest"
@@ -27,5 +28,8 @@
     "@types/node": "^24.8.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "fastify": "^5.6.1"
   }
 }
