@@ -1,0 +1,31 @@
+{
+  "name": "fiat-wallet-ledger",
+  "version": "1.0.0",
+  "description": "A Node.js(TypeScript) wallet API with Paystack integration and double-entry ledger accounting.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekygeeky/fiat-wallet-ledger.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node-js",
+    "fastify",
+    "typescript",
+    "node-js-api"
+  ],
+  "author": "Olushola (GeekyGeeky)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekygeeky/fiat-wallet-ledger/issues"
+  },
+  "homepage": "https://github.com/geekygeeky/fiat-wallet-ledger#readme",
+  "devDependencies": {
+    "@types/node": "^24.8.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
