@@ -24,12 +24,14 @@
     "url": "https://github.com/geekygeeky/fiat-wallet-ledger/issues"
   },
   "homepage": "https://github.com/geekygeeky/fiat-wallet-ledger#readme",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@fastify/env": "^5.0.3",
+    "fastify": "^5.6.1"
+  },
   "devDependencies": {
     "@types/node": "^24.8.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "fastify": "^5.6.1"
   }
 }
